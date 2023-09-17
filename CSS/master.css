@@ -1,32 +1,38 @@
-/* start global rules  */
-body {
-    font-family: 'Cairo', sans-serif;
-}
-
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-:root {
+  }
+  :root {
     --main-color: #2196f3;
     --main-color-alt: #1787e0;
     --main-transition: 0.3s;
-    --main-padding: 100px;
-    --alternative-color: #ececec;
-}
-
-html {
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+  }
+  html {
     scroll-behavior: smooth;
-}
-
-.container {
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media (min-width: 768px) {
+  }
+  /* Small */
+  @media (min-width: 768px) {
     .container {
       width: 750px;
     }
@@ -43,16 +49,6 @@ html {
       width: 1170px;
     }
   }
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
 
 /* end global rules  */
 /* start components  */
@@ -1727,6 +1723,7 @@ background-image: linear-gradient(to right, #009688 50%, white 50%);
     position: relative;
     z-index: 1;
     color: white;
+    padding: 25px;
 }
 .discount .image::before {
     content: '';
@@ -1774,7 +1771,6 @@ background-image: linear-gradient(to right, #009688 50%, white 50%);
 .discount .box p {
     font-size: 18px;
     line-height: 1.6;
-    width: 500px;
     margin: 0 auto;
 }
 .discount .form form {
