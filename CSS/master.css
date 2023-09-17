@@ -1917,12 +1917,12 @@ background-image: linear-gradient(to right, #009688 50%, white 50%);
     margin: 2px;
  }
  .copy-rights {
-    padding: 20px;
-    border-top: 1px solid #e9e6e6;
-    width: 100%;
+    padding: 25px 0;
     text-align: center;
-    color: #e9e6e6;
-    font-size: 18px;
+    color: white;
+    margin: 50px 0 0;
+    border-top: 1px solid #444;
+    font-size: 20px;
 
  }
 
